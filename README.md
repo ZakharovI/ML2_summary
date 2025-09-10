@@ -1,5 +1,24 @@
 # [Лекция 1] 
 Perceptron:
 
-<img src="./src/img/01_lect/perceptron.png"  style="display: block; margin: auto; width: 70%">
+<p align="center">
+<img src="./src/img/01_lect/perceptron.png"  style="width: 50%">
+</p>
 
+Принимает $n$ чисел на вход $x_1$, $x_2$, ..., $x_n$ и возвращает одно число $y$.
+
+$y = f(Z(x_1, x_2, ..., x_n))$
+
+$f$ - "функция активации"
+
+$Z$ - линейная функция вида $x_1\omega_1 + x_2\omega_2 + ... + x_n\omega_n + b$
+
+Для удобства можно вынети коэффициент $b$ из $Z$ и добавить еще один параметр на вход $x_0=1$
+
+Все это нужно, например, для задач бинарной классификации, когда классы друг от друга линейной функцией мы разделить не можем.
+
+MLP - Multilayer Perceptrons
+
+<p align="center">
+<img src="./src/img/01_lect/mlp.png"  style="width: 50%">
+</p>
