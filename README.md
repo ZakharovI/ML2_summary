@@ -41,3 +41,21 @@ $Z$ - линейная функция вида $x_1\omega_1 + x_2\omega_2 + ... 
 <p align="center">
 <img src="./src/img/01_lect/fcnn.png"  style="width: 50%">
 </p>
+
+Рассмотрим самую простую нейросеть с одним перцептроном:
+
+* $x\in\mathbb{R}^n$ - фичи из датасета
+* $y\in\mathbb{R}$ - target
+* $\theta\in\Theta$ (или $w\in W$) - параметры нейросети
+* $f_{\theta}(x) = \overline{x}\cdot\theta = x_1\theta_1 + x_2\theta_2 + ... + x_n\theta_n$ - нейросеть из одного перцептрона
+* $\{(x_i,y_i)\}$ - training set
+* $\mathcal{L}(\hat{y}, y)$ - loss function
+
+Надо минимизировать "эмпирический риск" $\frac{1}{n}\sum_{i=1}^{n} \mathcal{L}(\hat{y_i}, y_i)$ \
+Для этого можно использовать градиентный спуск, но сначала надо понять, как считать градиент
+
+Воспользуемся свойством $y=f(g(x)) \Rightarrow \frac{dy}{dx} = \frac{df}{dg}\cdot\frac{dg}{dx}$
+
+Тогда
+
+$$y=f(g_1(x), g_2(x), ..., g_n(x))\;\;\Rightarrow\;\;\frac{dy}{dx} = \sum_{i=1}^{n}\frac{df}{dg_i}\cdot\frac{dg_i}{dx}$$
