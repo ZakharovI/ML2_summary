@@ -1,5 +1,14 @@
+- [\[Лекция 1\]](#лекция-1)
+  - [Perceptron](#perceptron)
+
+<!-- 
+Ctrl+Shift+V - open preview
+
+Ctrl+Shift+P + "Markdown All in One: Create Table of Content"
+-->
+
 # [Лекция 1] 
-Perceptron:
+## Perceptron
 
 <p align="center">
 <img src="./src/img/01_lect/perceptron.png"  style="width: 50%">
