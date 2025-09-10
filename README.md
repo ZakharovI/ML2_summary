@@ -58,4 +58,4 @@ $Z$ - линейная функция вида $x_1\omega_1 + x_2\omega_2 + ... 
 
 Тогда
 
-$$y=f(g_1(x), g_2(x), ..., g_n(x))\;\;\Rightarrow\;\;\frac{dy}{dx} = \sum_{i=1}^{n}\frac{df}{dg_i}\cdot\frac{dg_i}{dx}$$
+$$y=f(g_1(x), g_2(x), ..., g_n(x)) \quad\Rightarrow\quad \frac{dy}{dx} = \sum_{i=1}^{n}\frac{df}{dg_i}\cdot\frac{dg_i}{dx}$$
