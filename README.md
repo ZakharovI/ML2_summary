@@ -1,6 +1,6 @@
 - [Полезные ссылки](#полезные-ссылки)
-- [\[Лекция 1\]](#лекция-1)
-  - [Perceptron](#perceptron)
+- [\[Лекция 1\] Введение в полносвязные сети](#лекция-1-введение-в-полносвязные-сети)
+  - [Перцептрон](#перцептрон)
   - [Полносвязная сеть](#полносвязная-сеть)
   - [Функция активации](#функция-активации)
 
@@ -21,12 +21,11 @@ git push origin main
 * [Записи занятий](https://disk.360.yandex.ru/d/-i0quAMsXqNabw/2%20%D0%BA%D1%83%D1%80%D1%81%20%D0%9C%D0%9D%D0%90%D0%94-24/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%202?clckid=a86ec8e9)
 
 
-# [Лекция 1] 
+# [Лекция 1] Введение в полносвязные сети
 
-* [Запись 1 лекции](https://disk.360.yandex.ru/d/-i0quAMsXqNabw/2%20%D0%BA%D1%83%D1%80%D1%81%20%D0%9C%D0%9D%D0%90%D0%94-24/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%202/1%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BA/1.%2006.09.25%20%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%202_%D0%9B%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_1%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BA.mp4?clckid=a86ec8e9)
+* [Запись](https://disk.360.yandex.ru/d/-i0quAMsXqNabw/2%20%D0%BA%D1%83%D1%80%D1%81%20%D0%9C%D0%9D%D0%90%D0%94-24/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%202/1%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BA/1.%2006.09.25%20%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%202_%D0%9B%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_1%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BA.mp4?clckid=a86ec8e9)
 
-## Perceptron
-
+## Перцептрон
 <p align="center">
 <img src="./src/img/01_lect/perceptron.png"  style="width: 50%">
 </p>
